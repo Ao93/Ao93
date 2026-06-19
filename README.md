@@ -42,6 +42,19 @@ about continuous learning and growth.
 
 ### 🚀 Featured Project
 
+**[RootsAndQi — MLOps + DevOps on AWS EKS](https://github.com/ao93/rootsandqi)**
+
+A production-grade MLOps platform combining TCM syndrome differentiation with Indigenous herbal traditions:
+`GitHub Actions → Trivy → Docker → Amazon ECR → Amazon EKS`
+
+- Terraform-provisioned AWS infrastructure (VPC, EKS, ECR, IAM — 25 resources)
+- 4-job CI/CD pipeline: lint → Trivy scan → Docker build (AMD64) → EKS deploy
+- MLOps layer: MLflow experiment tracking, DVC dataset versioning, Airflow orchestration
+- Observability: Prometheus + Grafana via Helm (live cluster metrics)
+- Documented 25 real-world issues across 6 milestones
+
+---
+
 **[Netflix Clone — DevSecOps on AWS](https://github.com/ao93/netflix-clone)**
 
 A full DevSecOps pipeline built from scratch: 
@@ -68,10 +81,8 @@ A full DevSecOps pipeline built from scratch:
 ### 📚 Currently Working On
 
 - Learn to Cloud roadmap
-- CKA certification prep
-- Adding observability (SonarQube, Prometheus/Grafana) to my DevSecOps 
-  pipeline, and building an MLOps project — LLM-powered API + model 
-  monitoring on Kubernetes
+- AWS Solutions Architect Associate certification prep
+- Expanding RootsAndQi — next improvements include per-tradition herb retrieval, Qdrant persistent storage on EKS, and containerizing the React frontend for full cloud deployment
 
 ---
 
